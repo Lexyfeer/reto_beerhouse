@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reto_beerhouse/static/css/main.19127b53.chunk.css",
+    "main.js": "/reto_beerhouse/static/js/main.88b40c3d.chunk.js",
+    "main.js.map": "/reto_beerhouse/static/js/main.88b40c3d.chunk.js.map",
+    "runtime-main.js": "/reto_beerhouse/static/js/runtime-main.7a7fa798.js",
+    "runtime-main.js.map": "/reto_beerhouse/static/js/runtime-main.7a7fa798.js.map",
+    "static/js/2.96e42313.chunk.js": "/reto_beerhouse/static/js/2.96e42313.chunk.js",
+    "static/js/2.96e42313.chunk.js.map": "/reto_beerhouse/static/js/2.96e42313.chunk.js.map",
+    "index.html": "/reto_beerhouse/index.html",
+    "static/css/main.19127b53.chunk.css.map": "/reto_beerhouse/static/css/main.19127b53.chunk.css.map",
+    "static/js/2.96e42313.chunk.js.LICENSE.txt": "/reto_beerhouse/static/js/2.96e42313.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/reto_beerhouse/static/media/catWall.883cf6be.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a7fa798.js",
+    "static/js/2.96e42313.chunk.js",
+    "static/css/main.19127b53.chunk.css",
+    "static/js/main.88b40c3d.chunk.js"
+  ]
+}
