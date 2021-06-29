@@ -146,7 +146,7 @@ function Formularios() {
 
   const CampoBoolean = ({ id }) => {
     return (
-      <>
+      <section>
         <label htmlFor='si'>Si</label>
         <input
           type='radio'
@@ -163,7 +163,7 @@ function Formularios() {
           value={false}
           onClick={(e) => setBool(!e.target.checked)}
         />
-      </>
+      </section>
     );
   };
 
@@ -211,7 +211,18 @@ function Formularios() {
   return (
     <>
       <h2>{data.form_name}</h2>
+
       <form id={data.form_id} className='people_form' onSubmit={handleSubmit}>
+        {(() => {
+          if (data.form_id === 1) {
+            return (
+              <h4>Bienvenido muchas gracias por querer registrarte para darle un hogar y mucho cariño a un hermoso gatito.</h4>
+            );
+          }
+
+          return <h4>Sabemos que este puede ser un proceso muy duro, pero muchas gracias por darte el tiempo para registrar a este hermoso gatito, verás que pronto le encontraremos hogar y una familia que le de mucho cariño.</h4>;
+        })()}
+
         {data.questions.map(question => {
           return (
             <Fragment key={question.question_id}>
